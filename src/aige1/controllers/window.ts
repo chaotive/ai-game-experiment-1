@@ -1,5 +1,5 @@
 import { IRefPhaserGame } from "../../PhaserGame.tsx";
-import {MainMenu} from "../../game/scenes/MainMenu.ts";
+import {MainMenu} from "../scenes/MainMenu.ts";
 import {Dispatch, SetStateAction} from "react";
 import * as sprite from "../../game/controllers/sprite.ts";
 import {IWindowScene} from "../types";
