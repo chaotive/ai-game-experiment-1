@@ -1,8 +1,9 @@
 import { GameObjects, Scene } from 'phaser';
 
 import { EventBus } from '../EventBus';
+import {IWindowScene} from "../../aige1/types";
 
-export class MainMenu extends Scene
+export class MainMenu extends Scene implements IWindowScene
 {
     background: GameObjects.Image;
     logo: GameObjects.Image;
