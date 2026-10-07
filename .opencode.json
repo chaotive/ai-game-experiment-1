@@ -1,0 +1,15 @@
+{
+    "provider": {
+        "local": {
+            "baseURL": "http://localhost:11434/v1",
+            "apiKey": "local"
+        }
+    },
+    "agents": {
+        "coder": {
+            "model": "local.llama3.1:8b",
+            "maxTokens": 4096,
+            "temperature": 0.2
+        }
+    }
+}
