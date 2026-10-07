@@ -1,6 +1,6 @@
-import { EventBus } from '../EventBus';
+import { EventBus } from "../../game/EventBus.ts";
 import { Scene } from 'phaser';
-import {IWindowScene} from "../../aige1/types";
+import {IWindowScene} from "../types";
 
 export class Game extends Scene implements IWindowScene
 {

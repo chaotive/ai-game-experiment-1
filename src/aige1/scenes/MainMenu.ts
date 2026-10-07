@@ -1,7 +1,7 @@
 import { GameObjects, Scene } from 'phaser';
 
-import { EventBus } from '../EventBus';
-import {IWindowScene} from "../../aige1/types";
+import { EventBus } from "../../game/EventBus.ts";
+import {IWindowScene} from "../types";
 
 export class MainMenu extends Scene implements IWindowScene
 {
